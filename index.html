@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>モテ返信 サポート</title>
+<meta name="description" content="モテ返信(iOSアプリ)のサポートページです。使い方、よくある質問、お問い合わせ先。">
+<style>
+  :root { --bg:#fbf9fc; --card:#fff; --text:#1d1a22; --sub:#6b6577; --accent:#e63e72; --line:#e8e3ee; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f0d16; --card:#1a1724; --text:#f4f2f8; --sub:#a8a2b6; --accent:#ff6a93; --line:#2c2838; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.8 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.7rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 40px 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  p, li { color: var(--text); }
+  .sub { color: var(--sub); margin: 0 0 24px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  a { color: var(--accent); }
+  dt { font-weight: 700; margin-top: 16px; }
+  dd { margin: 4px 0 0; color: var(--text); }
+  footer { margin-top: 48px; color: var(--sub); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>モテ返信</h1>
+  <p class="sub">会話のスクリーンショットから、そのまま送れる返信案を作るiOSアプリ</p>
+
+  <h2>お問い合わせ</h2>
+  <div class="card">
+    <p>不具合の報告、ご質問、ご要望は、下のページからお願いします(GitHubのアカウントが必要です)。</p>
+    <p><a href="https://github.com/supamucho76-wq/motereply-site/issues/new">お問い合わせを送る(GitHub Issues)</a></p>
+    <p style="color:var(--sub);font-size:.9rem;margin-bottom:0">返信までに数日かかることがあります。会話の内容や、相手の名前・写真などの個人情報は書かないでください。</p>
+  </div>
+
+  <h2>使い方</h2>
+  <ol>
+    <li>会話のスクリーンショットを選ぶ(最大4枚)か、会話のテキストを貼り付けます。</li>
+    <li>返し方のキャラと、今回のゴールを選びます。</li>
+    <li>「返信を作る」を押すと、返信案が3つ出ます。</li>
+    <li>気に入った案をコピーして、会話中のアプリに貼り付けて送ります。</li>
+  </ol>
+  <p>「細かい調整」では、攻め度・長さ・絵文字の量・言語(日本語/英語)・自由な追加指示を設定できます。設定画面でプロフィールや口調を登録すると、返信案に反映されます。</p>
+
+  <h2>よくある質問</h2>
+  <dl>
+    <dt>メッセージは自動で送られますか?</dt>
+    <dd>いいえ。このアプリはメッセージを自動送信しません。返信案をコピーして、ご自身で送ってください。</dd>
+
+    <dt>マッチングアプリの運営会社と関係はありますか?</dt>
+    <dd>ありません。このアプリは、特定のマッチングアプリとは無関係の、独立したアプリです。</dd>
+
+    <dt>スクリーンショットはどこに送られますか?</dt>
+    <dd>返信案を作るために、AIサービス(Anthropic)へ送信されます。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。相手の名前や写真が写っている場合は、送る前に隠すことをおすすめします。</dd>
+
+    <dt>返信案どおりに送れば、うまくいきますか?</dt>
+    <dd>保証はできません。返信案は参考です。相手の気持ちを操作するためではなく、ご自身の言葉を選ぶ助けとしてお使いください。</dd>
+
+    <dt>対象年齢は?</dt>
+    <dd>18歳以上の方向けです。</dd>
+  </dl>
+
+  <h2>関連ページ</h2>
+  <p><a href="privacy.html">プライバシーポリシー</a></p>
+
+  <footer>© 2026 Kenta Yamanaka</footer>
+</main>
+</body>
+</html>
